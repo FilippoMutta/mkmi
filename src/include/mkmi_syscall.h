@@ -7,8 +7,6 @@ extern "C" {
 
 size_t __fast_syscall(size_t syscall_num, size_t arg1, size_t arg2, size_t arg3, size_t arg4, size_t arg5, size_t arg6);
 
-size_t syscall(usize total_args, ...);
-
 #ifdef __cplusplus
 }
 #endif
